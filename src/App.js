@@ -6,7 +6,7 @@ import Title from "./Components/Title/Title";
 import About from "./Components/About/About";
 import Campus from "./Components/Campus/Campus";
 import Testimonials from "./Components/Testimonials/Testimonials";
-// import TestComponent from "./Components/TestComponent/TestComponent";
+ import TestComponent from "./Components/TestComponent/TestComponent";
 // import "react-toastify/dist/ReactToastify.css";
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
         <Title title={"Testimonials"} subtitle={"What students say.."} />
         <Testimonials />
       </div>
-      {/* <TestComponent /> */}
+      {<TestComponent /> }
     </div>
   );
 }
